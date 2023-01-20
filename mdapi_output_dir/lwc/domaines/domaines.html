@@ -1,0 +1,14 @@
+<template>
+    
+    <template  for:each={Domainess} for:item="dom">
+      <div class="card" key={dom.Id}>
+        <div class="cardChild"> 
+            <lightning-card class="card" >
+            <h1 >{dom.Name__c}</h1>
+            <lightning-button label="click me" onclick={handle} value="click"></lightning-button>
+            </lightning-card>
+        </div>
+      </div>
+    </template> 
+
+</template>

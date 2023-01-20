@@ -1,0 +1,12 @@
+<template>
+    <div class="container">
+    <div> <h2 >Services :</h2></div>
+    <template if:true={etat}>
+        <c-list-domaines
+         ondomaineselected={handleDomaineSelected}></c-list-domaines>
+    </template> 
+     <c-list-freelancers domaine-id={selecteDomaine} onfreeidselected={handle}></c-list-freelancers>
+     <c-details id={fId}></c-details>
+    
+    </div>
+</template>

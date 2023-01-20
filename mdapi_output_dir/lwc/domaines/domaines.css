@@ -1,0 +1,13 @@
+
+.par{
+    display: flex;
+    width: 100%;
+}
+.card{
+    display: flex;
+    width: 100%;
+}
+.cardChild{
+ width: 25%;
+ height: 80%;
+}

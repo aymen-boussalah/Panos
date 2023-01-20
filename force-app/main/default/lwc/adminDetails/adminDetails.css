@@ -1,0 +1,13 @@
+.dummyClass{color:black;}
+div {
+  border: 1px solid blue; 
+  padding: 10px;
+	border-radius : 10px;
+	margin-bottom: 20px;
+	display: flex; 
+  align-items: center;
+	width : 50%;
+}
+.slds-m-left_xx-small {
+  margin-left: auto;
+		}

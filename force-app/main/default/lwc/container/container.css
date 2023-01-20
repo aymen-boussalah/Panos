@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: cursive;
+  } 
+  .wrapper{
+    min-height: auto;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+  }
+  .header, .footer{
+    height: 50px;
+    background:transparent;
+    color: #030f48;
+    font-size: x-large;
+    padding: 10px;
+    font-weight: bold;
+
+  }
+  .content {
+    display: flex;
+    flex: 1;
+    background: transparent;
+    color: #000; 
+  }
+  .columns{
+    display: flex;
+    flex:1;
+  }
+  .main{
+    flex: 1;
+    order: 2;
+    background: transparent;
+  }
+  /*.sidebar-first{
+    width: 20%;
+    background: #eee;
+    order: 1;
+  }*/
+  .sidebar-second{ 
+    width: 40%;
+    order: 3;
+    background: transparent;
+  }

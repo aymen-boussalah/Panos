@@ -1,0 +1,31 @@
+<template>
+   
+  <lightning-card class="card" >
+    <div class="cont" >
+        <div class="container"> 
+           <lightning-combobox         
+            name="fromCurr"
+            value={fromCurr}
+            placeholder="Select Progress"
+            options={options}
+            onchange={handleChange} >
+           </lightning-combobox>
+           <lightning-input  class="amount" name="amount" value={amount} onchange={handleChange}></lightning-input> 
+        </div>
+        <div class="container"> 
+            <lightning-combobox
+            name="toCurr"
+            value={toCurr}
+            placeholder="Select Progress"
+            options={options}
+            onchange={handleChange} >
+          </lightning-combobox>
+            <lightning-input  class="amount" name="amount" value={val}  onchange={handleChange}></lightning-input> 
+         </div>         
+    </div>
+    <div ><lightning-button class="btn" variant="success" label="Convert" onclick={convertir}></lightning-button></div>
+
+
+  </lightning-card>
+
+</template>

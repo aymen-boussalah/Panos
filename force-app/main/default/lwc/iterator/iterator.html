@@ -1,0 +1,11 @@
+<template>
+    <div class="container">
+        <template for:each={opps} for:item="opp">
+            <c-oppit
+                key={opp.Id} 
+                object-api-name={opp}
+                onoppclick={handleOppClick}>
+            </c-oppit>
+        </template>
+    </div>
+</template>

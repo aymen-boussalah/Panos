@@ -1,0 +1,12 @@
+.dummyClass{color:black;}
+.admindetails {
+  border: 1px solid blue; 
+  padding: 10px;
+	border-radius : 10px;
+	margin-bottom: 20px;
+
+}
+.head{
+		font-size: 30px;
+		text-transform: uppercase;
+}

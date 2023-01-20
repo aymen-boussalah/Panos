@@ -1,0 +1,23 @@
+.hw{
+    width: 550px;
+    position: relative;
+    left: 500px;
+
+}
+.card{
+    width: 160PX;
+}
+.ss{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.amount{
+    width: 30%;
+}
+h1{
+    color: brown;
+}
+lightning-combobox{
+    width:100PX;
+}

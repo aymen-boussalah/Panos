@@ -1,0 +1,7 @@
+<template>
+		<template if:true={projectList} for:each={projectList} for:item="project">
+       <c-admin-child key={project.Id}
+	                  obj={project}  
+	   >  </c-admin-child>
+    </template>
+</template>

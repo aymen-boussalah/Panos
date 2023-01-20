@@ -1,0 +1,12 @@
+<template>
+    <div class="container">
+       <template for:each={devs} for:item="dev">
+           <c-freelancer-it
+           key={dev.Id}
+           object-api-name={dev}
+           onfreelancerclick={handleFreelancerClick}
+           ></c-freelancer-it>
+       </template>
+    </div>
+    
+</template>

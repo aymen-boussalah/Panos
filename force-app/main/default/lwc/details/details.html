@@ -1,0 +1,22 @@
+<template>
+    <template if:true={os}>
+        <div class="container">   
+            <!--<h3>Offer's Details</h3>-->
+            <lightning-icon icon-name="action:preview" alternative-text="Preview" title="Preview"></lightning-icon>
+           <h5>detailssss</h5>
+           <p style="font: size 19px; ">{Acc.Name}</p>
+           <h5>GMAIL :</h5><p>{Acc.gmail__c}</p>
+            <h5>LINKEDIN</h5><p>{Acc.Linkedin__c}</p>
+            
+           <!--<img class="img" src={src}></img>   -->
+
+        <!--    <h5>Field :</h5> <p>{opp.Project_Field__c}</p>
+            <h5>Title :</h5><p>{opp.Name}</p>
+            <h5>Description</h5><p>{opp.Description}</p>
+            <h5>Price :</h5><p>{opp.Amount} DH</p>  -->
+        </div>
+    </template>
+    <template if:false={os}>
+        <h5>Select a freelancer</h5>
+    </template>
+</template>

@@ -1,0 +1,15 @@
+<template>
+    <div class="wrapper">
+        <section class="content">
+            <div class="columns">
+            <main class="main" >
+                <c-iterator onoppselected={handleOppSelected}></c-iterator>
+            </main>
+            <aside class="sidebar-second">
+                <c-details oppid={selectedOpptId}></c-details>
+            </aside>
+            
+            </div>
+        </section>
+    </div>
+</template>

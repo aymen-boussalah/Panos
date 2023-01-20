@@ -1,0 +1,12 @@
+<template>
+    <div class="container">
+        <template for:each={devs} for:item="dev">
+            <c-projectit
+                key={dev.Id} 
+                object-api-name={dev}
+                onoppclick={handleOppClick}
+                 >
+            </c-projectit>
+        </template>
+    </div>
+</template>
